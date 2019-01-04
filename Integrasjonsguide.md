@@ -77,17 +77,17 @@ Response JSON-objekt
 ```
 
 - **innsyn** (string): Strukturert informasjon om bl.a. standard rapporten, støttede rapporter og vedlegg. XML-format definert i Innsyn-v6.01.xsd. Det er utviklet et eget testverktøy der registre kan teste hvordan en slik formatering vil bli på Helsenorge. Se digital dialog implementasjonsguiden til helsenorge.no kap 5.2.3 for mer informasjon.
-- **stottedeRapporter** (stottetRapport array):
-    stottetRapport:
-    {
-        rapportHovedType: "STD" | "FULL" | "TRA" | "LOK"
-        lokalRapportType: rapportens lokale identifikator
-        lokalRapportBeskrivelse: rapportens lokale beskrivelse
+- **stottedeRapporter** (stottetRapport array):  
+    stottetRapport:  
+    {  
+        rapportHovedType: "STD" | "FULL" | "TRA" | "LOK"  
+        lokalRapportType: rapportens lokale identifikator  
+        lokalRapportBeskrivelse: rapportens lokale beskrivelse  
     }
-- **vedlegg** (vedlegg array):
+- **vedlegg** (vedlegg array):  
     vedlegg:  
     {  
-        mimetype: 
+        mimetype:  
         innhold: Base64 kodet fil som er vedlegg til standardrapporten eller en annen rapport som vedlegg  
         innholdsbeskrivelse:  
     }
