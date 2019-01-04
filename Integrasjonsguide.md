@@ -2,6 +2,14 @@
 
 *Sist oppdatert 04.01.2019*
 
+## Innholdsfortegnelse
+
+[Meldingsformat](#Meldingsformat)
+[Kryptering](#Kryptering)
+
+## Meldingsformat
+Beskrivelse av formatet på meldingene mellom som utveksles mellom Innsynsorkestratoren og registrene.
+
 ## Kryptering
 Kommunikasjon mellom Innsynsorkestrator og register krypteres både for å sikre at uvedkomne ikke skal kunne se dataene og for å sikre at det kommuniseres med korrekt register. Krypteringen baserer seg på en delt hemmelighet.
 
