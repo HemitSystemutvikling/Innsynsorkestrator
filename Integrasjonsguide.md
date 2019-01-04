@@ -80,16 +80,16 @@ Response JSON-objekt
 - **stottedeRapporter** (stottetRapport array):  
     stottetRapport:  
     {  
-        rapportHovedType: "STD" | "FULL" | "TRA" | "LOK"  
-        lokalRapportType: rapportens lokale identifikator  
-        lokalRapportBeskrivelse: rapportens lokale beskrivelse  
+      rapportHovedType: "STD" | "FULL" | "TRA" | "LOK"  
+      lokalRapportType: rapportens lokale identifikator  
+      lokalRapportBeskrivelse: rapportens lokale beskrivelse  
     }
 - **vedlegg** (vedlegg array):  
     vedlegg:  
     {  
-        mimetype:  
-        innhold: Base64 kodet fil som er vedlegg til standardrapporten eller en annen rapport som vedlegg  
-        innholdsbeskrivelse:  
+      mimetype:  
+      innhold: Base64 kodet fil som er vedlegg til standardrapporten eller en annen rapport som vedlegg  
+      innholdsbeskrivelse:  
     }
 
 ### Eksempler
