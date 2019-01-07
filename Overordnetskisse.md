@@ -1,3 +1,3 @@
 # Overordnet skisse
 
-![Overordnet skisse](img/overodnetskisse.png "Overordnet skisse")
+![Overordnet skisse](img/overordnetskisse.png "Overordnet skisse")
