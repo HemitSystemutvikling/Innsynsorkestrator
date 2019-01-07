@@ -5,7 +5,7 @@ Dokumentasjon for Innsynsorkestrator
 [Startguide](Startguide)
 
 ### Skisser
-[Overordnetskisse](Overordnetskisse)
+[Overordnet skisse](Overordnetskisse)
 
 [Designskisse](Designskisse)
 
