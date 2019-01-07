@@ -14,7 +14,7 @@ Følgende info er påkrevd for registrering i Oppføringsregisteret (de markert 
 
 ![Info til Oppføringsregisteret](img/oppforingsregisteret.png "Info til Oppføringsregisteret")
 
-### Eksempel på utfylling av Tonsilleregisteret
+### Eksempel på registrering i Oppføringsregisteret for Tonsille
 
 **Navn:** Norsk kvalitetsregister Øre-Nese-Hals, Tonsilleregisteret
 
