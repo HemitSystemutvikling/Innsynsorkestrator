@@ -10,7 +10,17 @@ Implementere integrasjon mot Innsynsorkestrator i hht [Integrasjonsguide](Integr
 
 Registeret må registreres i Innsynsorkestratoren og i Oppføringsregisteret hos helsenorge.no. Dette må gjøres av Hemit.
 
-Følgende info er påkrevd for registrering i Oppføringsregisteret (de markert med rød asteriks samt "Sensitivt"):
+Følgende info er påkrevd for registrering i Oppføringsregisteret:
+
+- Navn
+- Beskrivelse
+- Grunnlag for oppføring
+- Rettslig grunnlag *(en av følgende: Forskrift med krav til samtykke | Forskrift uten krav til samtykke | Konsesjon | Lov)*
+- Registeret inneholder sensitive data *(Ja | Nei)*
+- Registerets eier *(orgnummer)*
+- Adresse  
+- Telefon
+- E-post
 
 ![Info til Oppføringsregisteret](img/oppforingsregisteret.png "Info til Oppføringsregisteret")
 
