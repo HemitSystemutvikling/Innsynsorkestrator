@@ -4,9 +4,9 @@
 
 ## Innholdsfortegnelse
 
-[Meldingsformat](#Meldingsformat)
+[Meldingsformat](#meldingsformat)
 
-[Kryptering](#Kryptering)
+[Kryptering](#kryptering)
 
 ## Meldingsformat
 Beskrivelse av formatet på meldingene mellom som utveksles mellom Innsynsorkestratoren og registrene.
