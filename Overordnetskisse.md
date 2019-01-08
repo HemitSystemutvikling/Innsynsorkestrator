@@ -3,14 +3,6 @@
 ![Overordnet skisse](img/overordnetskisse.png "Overordnet skisse")
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
 | Komponent | Funksjon | Kommentar |
 |---|---|---|
 | Helsenorge | Portalen der innbyggere ved pålogging får tilgang til innsynsfunksjonalitet.	Lagrer informasjon om hvor en innbygger er oppført i innbyggers PHA. | Lagrer også svaret fra registeret på innbyggers innsynsforespørsel. |
