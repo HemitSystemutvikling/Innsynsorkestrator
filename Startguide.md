@@ -5,8 +5,6 @@
 ## Hvordan komme igang med Innsynsorkestrator
 
 Implementere integrasjon mot Innsynsorkestrator i hht [Integrasjonsguide](Integrasjonsguide)
--	Utsending av skjemabestilling
--	Mottak av skjemabestilling
 
 Registeret må registreres i Innsynsorkestratoren og i Oppføringsregisteret hos helsenorge.no. Dette må gjøres av Hemit.
 
