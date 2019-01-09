@@ -9,5 +9,7 @@ Dokumentasjon for Innsynsorkestrator
 
 [Designskisse](Designskisse)
 
+[Flyt](Flyt)
+
 ### Integrasjonsguide
 [Integrasjonsguide](Integrasjonsguide)
