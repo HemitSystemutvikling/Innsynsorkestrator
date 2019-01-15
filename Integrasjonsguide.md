@@ -117,7 +117,7 @@ Response JSON-objekt
 ```
 
 #### Dialog innsyn helseopplysninger
-Andreas Heimdal, fødselsnummer 01128330700, sender forespørsel til Tonsilleregisteret om å generere en Standard rapport til han. Han får den generert som strukturert data samt en PDF-fil som vedlegg. Han får også informasjon om at FULL rapport er tilgjengelig i tillegg til STD.
+Andreas Heimdal, fødselsnummer 01128330700, sender forespørsel til Tonsilleregisteret om å generere en Standard rapport til han. Han får den generert som strukturert informasjon samt en PDF-fil som vedlegg. Han får også informasjon om at FULL rapport er tilgjengelig i tillegg til STD.
 
 Request JSON-objekt 
 ```
