@@ -1,6 +1,6 @@
 # Integrasjonsguide
 
-*Sist oppdatert 04.01.2019*
+*Sist oppdatert 15.01.2019*
 
 ## Innholdsfortegnelse
 
@@ -76,17 +76,17 @@ Response JSON-objekt
 }
 ```
 
-- **innsyn** (string): Strukturert informasjon om bl.a. standard rapporten, støttede rapporter og vedlegg. XML-format definert i Innsyn-v6.01.xsd. Det er utviklet et eget testverktøy der registre kan teste hvordan en slik formatering vil bli på Helsenorge. Se digital dialog implementasjonsguiden til helsenorge.no kap 5.2.3 for mer informasjon.
-- **stottedeRapporter** (stottetRapport array):  
+- **innsyn** (string): Strukturert informasjon om bl.a. standard rapporten, støttede rapporter og vedlegg. XML-format definert i Innsyn-v6.01.xsd. Det er utviklet et eget testverktøy der registre kan teste hvordan en slik formatering vil bli på Helsenorge. Se digital dialog implementasjonsguiden til helsenorge.no kap 5.2.3 for mer informasjon. Denne er påkrevd for STD rapporten.
+- **stottedeRapporter** (stottetRapport array): Alle rapporttyper utover STD som er støttet.
     stottetRapport:  
     ```
     {  
-        rapportHovedType: "STD" | "FULL" | "TRA" | "LOK"  
+        rapportHovedType: "FULL" | "TRA" | "LOK"  
         lokalRapportType: rapportens lokale identifikator  
         lokalRapportBeskrivelse: rapportens lokale beskrivelse  
     }
     ```
-- **vedlegg** (vedlegg array):  
+- **vedlegg** (vedlegg array): 
     vedlegg:  
     ```
     {  
@@ -117,7 +117,7 @@ Response JSON-objekt
 ```
 
 #### Dialog innsyn helseopplysninger
-Andreas Heimdal, fødselsnummer 01128330700, sender forespørsel til Tonsilleregisteret om å generere en Standard rapport til han. Han får den generert som strukturert data samt en PDF-fil som vedlegg.
+Andreas Heimdal, fødselsnummer 01128330700, sender forespørsel til Tonsilleregisteret om å generere en Standard rapport til han. Han får den generert som strukturert data samt en PDF-fil som vedlegg. Han får også informasjon om at FULL rapport er tilgjengelig i tillegg til STD.
 
 Request JSON-objekt 
 ```
@@ -134,7 +134,7 @@ Response JSON-objekt
 {
     innsyn: "<XML_MED_STANDARD_RAPPORT>"
     stottedeRapporter: [{
-        rapportHovedType: "STD"
+        rapportHovedType: "FULL"
     }]
     vedlegg: [{  
         mimetype: "application/pdf"
