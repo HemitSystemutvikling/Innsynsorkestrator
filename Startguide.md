@@ -1,6 +1,6 @@
 # Startguide
 
-*Sist oppdatert 07.01.2019*
+*Sist oppdatert 21.01.2019*
 
 ## Hvordan komme igang med Innsynsorkestrator
 
