@@ -11,16 +11,16 @@ Registeret må registreres i Innsynsorkestratoren og i Oppføringsregisteret hos
 Følgende info er påkrevd for registrering i Oppføringsregisteret:
 
 - Navn
-- Beskrivelse
+- Beskrivelse (kort, maks 612 tegn)
 - Grunnlag for oppføring
 - Rettslig grunnlag  
 En av følgende: *Forskrift med krav til samtykke | Forskrift uten krav til samtykke | Konsesjon | Lov*
 - Registeret inneholder sensitive data  
 En av følgende: *Ja | Nei*
 - Registerets eier *(orgnummer)*
-- Adresse  
-- Telefon
-- E-post
+- Adresse
+- Telefon (helst felles)
+- E-post (helst felles)
 
 ![Info til Oppføringsregisteret](img/oppforingsregisteret.png "Info til Oppføringsregisteret")
 
@@ -28,7 +28,7 @@ En av følgende: *Ja | Nei*
 
 **Navn:** Norsk kvalitetsregister Øre-Nese-Hals, Tonsilleregisteret
 
-**Beskrivelse:** Norsk tonsilleregister er et nasjonalt kvalitetsregister for pasienter som får kirurgisk behandling for sykdom og plager relatert til halsmandlene (tonsillene). St. Olavs hospital HF er databehandleransvarlig og Norsk Helsenett er databehandler. Registeret er samtykkebasert, og har som mål å være et nasjonalt register som inkluderer alle berørte behandlingsinstitusjoner i landet. Det viktigste formålet med registeret er å sikre kvaliteten på diagnostikk og behandling av pasienter som tonsilleopereres. Registeret har til mål å bidra til praksis med færre komplikasjoner på landsbasis, og opplysninger fra registeret skal benyttes til kvalitetsforbedring og helseforskning.
+**Beskrivelse:** Norsk tonsilleregister er et samtykkebasert nasjonalt kvalitetsregister for pasienter som får kirurgisk behandling for sykdom og plager relatert til halsmandlene (tonsillene) ved behandlingsinstitusjoner i Norge.
 
 **Grunnlag for oppføring:** Norsk tonsilleregister inneholder opplysninger om pasienter som er operert i halsmandlene (tonsillene), og som har samtykket til registrering. Det viktigste formålet med registeret er å sikre kvaliteten på diagnostikk og behandling av pasienter som tonsilleopereres. Registeret har til mål å bidra til praksis med færre komplikasjoner på landsbasis, og opplysninger fra registeret skal benyttes til kvalitetsforbedring og helseforskning.
 
@@ -49,4 +49,4 @@ Postboks 3250 Torgarden
 
 **Telefon:** 47663704
 
-**E-post:** vegard.bugten@stolav.no; siri.wennberg@stolav.no
+**E-post:** siri.wennberg@stolav.no
