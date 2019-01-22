@@ -15,7 +15,7 @@ Følgende info er påkrevd for registrering i Oppføringsregisteret:
 - Grunnlag for oppføring
 - Rettslig grunnlag  
 En av følgende: *Forskrift med krav til samtykke | Forskrift uten krav til samtykke | Konsesjon | Lov*
-- Registeret inneholder sensitive data  
+- Registeret inneholder sensitive data (Dersom oppføring i registeret i seg selv kan anses som en sensitiv opplysning, skal dette besvares ja)  
 En av følgende: *Ja | Nei*
 - Registerets eier *(orgnummer)*
 - Adresse
