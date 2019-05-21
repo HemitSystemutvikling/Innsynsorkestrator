@@ -47,6 +47,6 @@ MTFS
 Postboks 3250 Torgarden  
 7006 Trondheim  
 
-**Telefon:** 47663704
+**Telefon:** 12345678
 
-**E-post:** siri.wennberg@stolav.no
+**E-post:** test.testesen@test.no
