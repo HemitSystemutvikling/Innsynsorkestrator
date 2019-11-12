@@ -192,4 +192,4 @@ Ved å bruke nøkkelen til å kryptere data i klartekst får man denne base64-ko
 VxQSM09R+xJe+uDCpPcKHrzVk0iePxZzpPJMl2eb9wp2K15w0uocJS2UHlIXWP9H
 ```
 
-Denne base64-kodede kan brukes for å teste dekryptering ved å se om man får dekryptert tilbake til original tekst ved å benytte samme nøkkel
+Denne base64-kodede strengen kan brukes for å teste dekryptering ved å se om man får dekryptert den tilbake til original tekst ved å benytte samme nøkkel
