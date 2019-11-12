@@ -1,6 +1,6 @@
 # Integrasjonsguide
 
-*Sist oppdatert 15.01.2019*
+*Sist oppdatert 12.11.2019*
 
 ## Innholdsfortegnelse
 
@@ -168,10 +168,13 @@ Padding: PKCS7
 ```
 
 ### Flyt ved kryptering
-Ved kryptering benyttes nøkkelen sammen med en tilfeldig generert initialiseringsvektor (IV) for å generere cipher-teksten som overføres mellom orkestrator og register. IV benyttes for å unngå at kryptering av to like tekster genererer samme byte-array. IV legges til på starten av det krypterte byte-arrayet som de første 16 bytene. Kombinasjonen av IV og det krypterte innholdet blir så base64-kodet til en streng før det overføres mellom orkestrator og register.
+Ved kryptering benyttes nøkkelen sammen med en tilfeldig generert initialiseringsvektor (IV) for å generere cipher-teksten (det krypterte innholdet) som overføres mellom orkestrator og register. IV benyttes for å unngå at kryptering av to like tekster genererer den samme cipher-teksten. IV er et byte-array på 16 bytes som legges til foran det byte-arrayet som er den genererte cipher-teksten. Kombinasjonen av IV og cipher-teksten (det kombinerte byte-arrayet) blir deretter base64-kodet til en streng før det overføres mellom orkestrator og register.
 
 ### Flyt ved dekryptering
-Ved dekryptering går man motsatt vei. Den overførte strengen blir først konvertert fra base64-kodet streng til byte-array. De 16 første bytene gir IV, de resterende gir det krypterte innholdet som dekrypteres med nøkkelen og IV.
+Ved dekryptering går man motsatt vei. Den overførte strengen blir først konvertert fra base64-kodet streng til byte-array. De 16 første bytene i dette byte-arrayet gir IV, de resterende bytene gir cipher-teksten som så kan dekrypteres med nøkkelen og IV som ble sent sammen med cipher-teksten.
+
+### Test av kryptering og dekryptering
+Bruk følgende eksempel for å teste kryptering og dekryptering. Ved kryptering: Merk at cipher-teksten vil bli forskjellig hver gang den genereres selv om teksten som krypteres er lik.
 
 ### Eksempel
 Nøkkel (delt hemmelighet)
@@ -184,9 +187,9 @@ Data i klartekst
 Text to be encrypted
 ```
 
-Ved å bruke nøkkelen til å kryptere data i klartekst får man denne cipher-teksten
+Ved å bruke nøkkelen til å kryptere data i klartekst får man denne base64-kodede strengen som består av IV og cipher-teksten
 ```
 VxQSM09R+xJe+uDCpPcKHrzVk0iePxZzpPJMl2eb9wp2K15w0uocJS2UHlIXWP9H
 ```
 
-Denne cipher-teksten kan brukes for å teste dekryptering ved å se om man får dekryptert tilbake til original tekst ved å benytte samme nøkkel
+Denne base64-kodede kan brukes for å teste dekryptering ved å se om man får dekryptert tilbake til original tekst ved å benytte samme nøkkel
