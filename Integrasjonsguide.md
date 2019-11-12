@@ -187,7 +187,7 @@ Data i klartekst
 Text to be encrypted
 ```
 
-Ved å bruke nøkkelen til å kryptere data i klartekst får man denne base64-kodede strengen som består av IV og cipher-teksten
+Ved å bruke nøkkelen sammen med en tilfeldig generert IV til å kryptere data i klartekst får man denne base64-kodede strengen som består av IV og cipher-teksten
 ```
 VxQSM09R+xJe+uDCpPcKHrzVk0iePxZzpPJMl2eb9wp2K15w0uocJS2UHlIXWP9H
 ```
