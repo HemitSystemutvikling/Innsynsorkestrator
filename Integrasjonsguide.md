@@ -5,7 +5,7 @@
 ## Innholdsfortegnelse
 
 [Meldingsformat](#meldingsformat)
-
+[Datoformat](#datoformat)
 [Kryptering](#kryptering)
 
 ## Meldingsformat
@@ -143,6 +143,9 @@ Response JSON-objekt
     }]
 }
 ```
+
+## Datoformat
+Dato og tid skal angis uten tidssone og på følgende format: "2018-10-19T12:38:48"
 
 ## Kryptering
 Kommunikasjon mellom Innsynsorkestrator og register krypteres både for å sikre at uvedkomne ikke skal kunne se dataene og for å sikre at det kommuniseres med korrekt register. Krypteringen baserer seg på en delt hemmelighet.
