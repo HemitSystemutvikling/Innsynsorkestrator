@@ -4,8 +4,8 @@
 
 ## Innholdsfortegnelse
 
-[Meldingsformat](#meldingsformat) 
-[Datoformat](#datoformat) 
+[Meldingsformat](#meldingsformat)  
+[Datoformat](#datoformat)  
 [Kryptering](#kryptering)
 
 ## Meldingsformat
