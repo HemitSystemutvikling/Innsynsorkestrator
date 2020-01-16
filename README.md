@@ -13,5 +13,3 @@ Dokumentasjon for Innsynsorkestrator
 
 ### Integrasjonsguide
 [Integrasjonsguide](Integrasjonsguide)
-
-[Integrasjonsguide MRS](Integrasjon_mrs)
