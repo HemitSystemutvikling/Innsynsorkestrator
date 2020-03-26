@@ -6,7 +6,7 @@
 
 [Meldingsformat](#meldingsformat)  
 [Datoformat](#datoformat)  
-[Kryptering](#kryptering)
+[Kryptering](#kryptering)  
 [API-endepunkt](#apiendepunkt)
 
 ## Meldingsformat
