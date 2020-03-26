@@ -201,7 +201,7 @@ Denne base64-kodede strengen kan brukes for å teste dekryptering ved å se om m
 ## API-endepunkt
 Orkestratoren forventer at API-endepunktene for de ulike meldingstypene er tilgjengelig på følgende URLer:
 
-1. **Dialog om oppføring:** _<API base URL>_/Oppforing
-2. **Dialog innsyn helseopplysninger:** _<API base URL>_/InnsynHelseopplysninger
+1. **Dialog om oppføring:** _'<API base URL'>_/Oppforing
+2. **Dialog innsyn helseopplysninger:** _'<API base URL'>_/InnsynHelseopplysninger
 
-Orkestratoren må konfigureres med _<API base URL>_.
+Orkestratoren må konfigureres med _'<API base URL'>_.
