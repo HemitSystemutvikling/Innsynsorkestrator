@@ -7,7 +7,7 @@
 [Meldingsformat](#meldingsformat)  
 [Datoformat](#datoformat)  
 [Kryptering](#kryptering)  
-[API-endepunkt](#apiendepunkt)
+[API-endepunkt](#api-endepunkt)
 
 ## Meldingsformat
 Beskrivelse av formatet på meldingene mellom som utveksles mellom Innsynsorkestratoren og registrene.
