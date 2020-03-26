@@ -1,12 +1,13 @@
 # Integrasjonsguide
 
-*Sist oppdatert 12.11.2019*
+*Sist oppdatert 26.03.2020*
 
 ## Innholdsfortegnelse
 
 [Meldingsformat](#meldingsformat)  
 [Datoformat](#datoformat)  
 [Kryptering](#kryptering)
+[API-endepunkt](#apiendepunkt)
 
 ## Meldingsformat
 Beskrivelse av formatet på meldingene mellom som utveksles mellom Innsynsorkestratoren og registrene.
@@ -196,3 +197,11 @@ VxQSM09R+xJe+uDCpPcKHrzVk0iePxZzpPJMl2eb9wp2K15w0uocJS2UHlIXWP9H
 ```
 
 Denne base64-kodede strengen kan brukes for å teste dekryptering ved å se om man får dekryptert den tilbake til original tekst ved å benytte samme nøkkel
+
+## API-endepunkt
+Orkestratoren forventer at API-endepunktene for de ulike meldingstypene er tilgjengelig på følgende URLer:
+
+Dialog om oppføring: ```_<API base URL>_/Oppforing```
+Dialog innsyn helseopplysninger: ```_<API base URL>_/InnsynHelseopplysninger```
+
+Orkestratoren må konfigureres med _<API base URL>_.
