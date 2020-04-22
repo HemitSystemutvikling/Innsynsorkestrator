@@ -1,6 +1,6 @@
 # Integrasjonsguide
 
-*Sist oppdatert 26.03.2020*
+*Sist oppdatert 22.04.2020*
 
 ## Innholdsfortegnelse
 
@@ -205,3 +205,5 @@ Orkestratoren forventer at API-endepunktene for de ulike meldingstypene er tilgj
 2. **Dialog innsyn helseopplysninger:** _\<API base URL\>_/InnsynHelseopplysninger
 
 Her er _\<API base URL\>_ en variabel som orkestratoren må konfigureres med.
+
+Orkestratoren sender forespørsler til API-endepunktene som POST.
